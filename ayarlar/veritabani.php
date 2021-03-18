@@ -1,0 +1,1 @@
+KURULUM GEREKLİ

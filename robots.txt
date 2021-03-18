@@ -1,0 +1,5 @@
+includes/adm/*
+includes/slider/*
+ayarlar/*
+sayfalar/*
+domainchecker.php

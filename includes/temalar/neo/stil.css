@@ -1,0 +1,172 @@
+.price-table {
+width: 30.5%;
+text-align: center;
+box-shadow: 0px 0px 10px rgba(146, 146, 146, 0.24);
+float: left;
+margin-right: 2%;
+}
+.price-table ul li:nth-child(1) {
+border: none;
+}
+index.htmlmedia="all"
+.price-table ul li:nth-child(1), .price-table ul li:nth-child(3), .price-table ul li:nth-child(5) {
+background: rgba(124, 121, 121, 0.31);
+color: #7c7979;
+}
+index.htmlmedia="all"
+.price-table ul li {
+display: block;
+border-top: 1px solid rgb(235, 235, 235);
+}
+.price-button {
+font-family: 'gandhi_sansregular';
+font-size: 1.2em;
+background: url(resimler/header-bg.png) repeat-x;
+color: #F77F00;
+padding: 15px 10px;
+display: block;
+text-transform: uppercase;
+transition: all 300ms!important;
+-webkit-transition: all 300ms!important;
+-moz-transition: all 300ms!important;
+}
+.price-button:hover{
+color: white;
+}.price-table h4:hover{
+color: #00dba3;
+}
+.price-table ul li:nth-child(1), .price-table ul li:nth-child(3), .price-table ul li:nth-child(5) {
+background: rgba(124, 121, 121, 0.31);
+color: #7c7979;
+}
+.price-table h4 {
+font-family: 'gandhi_sansregular';
+font-size: 1.5em;
+text-transform: uppercase;
+background: url(resimler/header-bg.png) repeat-x;
+color: #375a7f;
+padding: 18px 10px;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+text-transform: uppercase;
+transition: all 300ms!important;
+-webkit-transition: all 300ms!important;
+-moz-transition: all 300ms!important;
+cursor: context-menu;
+}
+.price-table ul li a {
+font-family: 'gandhi_sansregular';
+font-size: 0.875em;
+padding: 12px 0px;
+display: block;
+}
+.active1 a {
+color: #709AC7;
+transition: all 300ms!important;
+-webkit-transition: all 300ms!important;
+-moz-transition: all 300ms!important;
+}
+.active2 a {
+color: #709AC7;
+transition: all 300ms!important;
+-webkit-transition: all 300ms!important;
+-moz-transition: all 300ms!important;
+}
+.active2 a:hover {
+color: #00dba3;
+}
+.active1 a:hover {
+color: #00dba3;
+}
+
+.price-table h5 {
+cursor: context-menu;
+font-family: 'gandhi_sansregular';
+font-size: 1.2em;
+background: url(resimler/header-bg.png) repeat-x;
+color: #709AC7;
+padding: 12px 10px;
+-webkit-margin-before: 0;
+-webkit-margin-after: 0;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+}
+::selection {
+color: #fff;
+background-color: #266cb2;
+text-shadow: 0px 1px 0px #000;
+}
+::selection{color:#fff;background-color:#266cb2;text-shadow:0px 1px 0px #000;}
+::-moz-selection{color:#fff;background-color:#266cb2;text-shadow:0px 1px 0px #000;}
+a::selection{color:#F49106;background-color:#266cb2;text-shadow:0px 1px 0px #000;}
+a::-moz-selection{color:#F49106;background-color:#266cb2;text-shadow:0px 1px 0px #000;}
+::-webkit-scrollbar{width:13px;height:13px}
+::-webkit-scrollbar-track-piece{background-color:#2C3135}
+::-webkit-scrollbar-thumb:vertical{background:#666}
+::-webkit-scrollbar-thumb:horizontal{background:#666}
+::-moz-selection{background:#666;color:#FFF}
+::-webkit-selection{background:#666;color:#FFF}
+::-webkit-scrollbar-button:hover{background-color:#666 !important}
+::-webkit-scrollbar-button:vertical:decrement{background:#666 url(resimler/up.png) no-repeat center}
+::-webkit-scrollbar-button:vertical:increment{background:#666 url(resimler/down.png) no-repeat center}
+::-webkit-scrollbar-button:horizontal:decrement{background:#666 url(resimler/left.png) no-repeat center}
+::-webkit-scrollbar-button:horizontal:increment{background:#666 url(resimler/right.png) no-repeat center}
+
+@media (max-width:991px) {
+	.mobil-uyumluluk {
+		width: 97%;
+		right: 0px;
+	}
+	.menu {
+		display: none;
+	}
+	.mobil-menu {
+		display: block;
+		margin-left: 1%;
+		margin-top:5%;
+	}
+	.breadcrumb {
+		display: none;
+	}
+	.bilgilendirme {
+		width: 100%;
+		text-align: center;
+	}
+	.tasarim-notu {
+		display: block;
+		margin-left: 1%;
+		margin-top: 1%;
+	}
+	
+}
+@media (min-width:992px) {
+	.mobil-menu {
+		display: none;
+	}
+	.tasarim-notu {
+		display: none;
+	}
+	.breadcrumb {
+	padding-bottom: 9px;
+    margin-right: -16px;
+	height: 41px;
+	}
+}
+@media (max-width:1155px) {
+	.navbar-header {
+		display: none;
+	}
+	.navbar-collapse {
+		margin-right: 15%;
+	}
+}
+@media (max-width:500px) {
+	.kucuk-cihaz {
+		display: none;
+	}
+}
+.sag-blok {
+position: absolute;float: right;right: 10px;
+}

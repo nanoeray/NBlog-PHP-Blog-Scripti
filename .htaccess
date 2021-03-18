@@ -1,0 +1,31 @@
+Options +FollowSymLinks
+RewriteEngine on
+Rewritebase / 
+RewriteRule ^uye-om-mesaj-(.*).html index.php?sayfa=uye-om&yer=mesaj&id=$1.html  [L,NC]
+RewriteRule ^yeni-mesaj.html index.php?sayfa=uye-om&yer=mesajgonder  [L,NC]
+RewriteRule ^yazi-kategori-(.*)-(.*).html index.php?sayfa=kategori&tur=yazi&kategori=$1&s=$2  [L,NC]
+RewriteRule ^urun-satinal-(.*).html index.php?sayfa=market&i=satinal&id=$1 [L,NC]
+RewriteRule ^destek.html destek-1.html [L,NC]
+RewriteRule ^destek-yeni-mesaj.html destek-yeni-1.html [L,NC]
+RewriteRule ^urun-odeme-(.*).html index.php?sayfa=market&i=odeme&id=$1 [L,NC]
+RewriteRule ^blog-(.*)-(.*).html index.php?sayfa=blog&yazi=$1&isim=$2  [L,NC]
+RewriteRule ^destek-(.*)-(.*).html index.php?sayfa=destek&yer=$1&id=$2  [L,NC]
+RewriteRule ^market.html market-1.html  [L,NC]
+RewriteRule ^blog.html blog-1.html  [L,NC]
+RewriteRule ^dosyalar.html projelerim-1.html  [L,NC]
+RewriteRule ^uye-ol.html uye-1.html  [L,NC]
+RewriteRule ^index.html index.php  [L,NC]
+RewriteRule ^ozel-mesajlar.html uye-om-1.html  [L,NC]
+RewriteRule ^kullanici-ayarlari.html index.php?sayfa=uye&yer=duzenle  [L,NC]
+RewriteRule ^kullanici-paneli.html uye-1.html  [L,NC]
+RewriteRule ^mesaj-sil-(.*).html index.php?sayfa=uye-om&yer=mesajsil&sil=$1.html  [L,NC]
+RewriteRule ^profil-(.*).html index.php?sayfa=profil&id=$1  [L,NC]
+RewriteRule ^projeler-(.*)-(.*).html index.php?sayfa=projelerim&proje=$1&isim=$2  [L,NC]
+RewriteRule ^blog-(.*)-(.*).html index.php?sayfa=blog&yazi=$1&isim=$2  [R=301,L]
+RewriteRule ^(.*)-(.*).html index.php?sayfa=$1&s=$2  [L,NC]
+RewriteRule ^rss\.xml rss.php  [L,NC]
+RewriteRule ^(.*)-(.*).html index.php?sayfa=$1&s=$2 [R=301,L]
+<Files .htaccess>
+Order allow,deny
+Deny from all
+</Files>
